@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name = 'bm25fast',         # How you named your package folder (MyLib)
     packages = ['bm25fast'],   # Chose the same as "name"
-    version = '0.1.1',      # Start with a small number and increase it with every change you make
+    version = '0.1-alpha.1',      # Start with a small number and increase it with every change you make
     license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description = 'Implements the BM25 document ranking system in Rust. This is not a particularly slow algorithm, even in native Python, but this implementation increases the speed of both loading the initial documents and of recall greatly compared to similar libraries. It also offers runtime weight configurability that could linked to an optimisation procedure.',   # Give a short description about your library
     author = 'Tim Attwell',                   # Type in your name
