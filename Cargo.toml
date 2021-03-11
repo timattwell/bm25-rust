@@ -1,0 +1,19 @@
+[package]
+name = "bm25"
+version = "0.1.0"
+authors = ["Tim Attwell <tim.attwell@hotmail.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "bm25"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+pyo3 = { version = "0.13.1", features = ["extension-module"] }
+vtext = "0.2.0"
+hashbrown = "0.9.1"
+regex = "1.4.3"
+rayon = "1.5.0"
+chrono = "*"
